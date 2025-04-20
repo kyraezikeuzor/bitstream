@@ -107,10 +107,10 @@ export default function Home() {
 
   return (
     <div className="p-4 space-y-4 flex-1 container mx-auto max-w-[680px] p-5">
-      <h1 className="text-4xl font-bold text-center mb-8">Hack Club CDN</h1>
+      <h1 className="text-4xl font-bold text-center mb-8">Hack Club CDN App</h1>
 
       {isLoading ? (
-        <div className="text-center">Loading...</div>
+        <div className="text-center flex justify-center items-center h-full">Loading...</div>
       ) : !slackToken ? (
         <button
           onClick={handleSlackLogin}
