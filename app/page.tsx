@@ -117,6 +117,7 @@ export default function Home() {
           className="px-4 py-2 bg-purple-500 text-white rounded hover:bg-purple-600"
         >
           Login with Hack Club Slack
+          {slackToken} {isLoading}
         </button>
       ) : (
         <div className="space-y-4">
