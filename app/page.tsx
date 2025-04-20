@@ -110,7 +110,7 @@ export default function Home() {
       <h1 className="text-4xl font-bold text-center mb-8">Hack Club CDN App</h1>
 
       {isLoading ? (
-        <div className="text-center flex justify-center items-center h-full">Loading...</div>
+        <div className="text-center flex flex-col justify-center items-center h-full">Loading...</div>
       ) : !slackToken ? (
         <button
           onClick={handleSlackLogin}
