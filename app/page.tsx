@@ -25,6 +25,11 @@ export default function Home() {
     }
   };
 
+  const handleClear = () => {
+    setUrl('');
+    setPermanentUrl('');
+  };
+
   return (
     <div className="p-4 max-w-[680px] mx-auto py-[12vh]">
       <h1 className="text-4xl font-bold text-center mb-8">Hack Club CDN</h1>
@@ -49,6 +54,14 @@ export default function Home() {
           >
             Upload
           </button>
+          {(url || permanentUrl) && (
+            <button
+              onClick={handleClear}
+              className="px-4 py-2 bg-gray-200 text-gray-700 rounded hover:bg-gray-300"
+            >
+              Clear
+            </button>
+          )}
         </div>
         
         {permanentUrl && (
