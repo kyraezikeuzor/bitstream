@@ -47,11 +47,10 @@ export default function Home() {
       <h1 className="text-4xl lg:text-5xl font-semibold text-left mb-4">
         Bitstream
       </h1>
-      <p className="text-xl text-muted-foreground text-left mb-6">
-        Bitstream uses <a href="https://hackclub.com/cdn">Hack Club</a>
-        &apos;s CDN or Content Delivery Network to store your files on the cloud
-        forever, for free. Upload any temporary file URL (image, video, etc) to
-        receive a permanent URL.
+      <p className=" text-muted-foreground text-left mb-6">
+        Using <a href="https://hackclub.com/cdn">Hack Club</a>
+        &apos;s CDN to store files on the cloud forever, for free. Input a
+        temporary file URL (image, video, etc) & get a permanent link.
       </p>
 
       <div className="space-y-6 mt-10">
