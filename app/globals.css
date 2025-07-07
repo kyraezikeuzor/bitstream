@@ -120,3 +120,78 @@
     @apply bg-background text-foreground;
   }
 }
+
+p {
+  font-size: 1.2rem;
+  color: #555;
+  margin: 0 0 1em 0;
+  line-height: 1.4;
+}
+
+.card {
+  background: #f9f9f9;
+  border: 1px solid #e5e5e5;
+  border-radius: 12px;
+  padding: 1.2rem;
+  transition: box-shadow 0.2s, border-color 0.2s;
+}
+
+h3 {
+  font-family: "Inter", sans-serif;
+  font-size: 1.2rem;
+  font-weight: 500;
+  color: #222;
+  margin: 0 0 0.5em 0;
+}
+
+.card p {
+  font-size: 0.95rem;
+  color: #555;
+  margin: 0 0 1em 0;
+  line-height: 1.6;
+}
+
+a {
+  color: oklch(62.3% 0.214 259.815);
+  text-decoration: none;
+  font-weight: 500;
+  font-size: inherit;
+  text-decoration: underline-none;
+}
+
+/* Responsive Typography */
+@media (max-width: 768px) {
+  p {
+    font-size: 1rem;
+  }
+
+  h1 {
+    font-size: 2.4rem;
+  }
+
+  h3 {
+    font-size: 1.1rem;
+  }
+
+  .card p {
+    font-size: 0.9rem;
+  }
+}
+
+@media (max-width: 480px) {
+  p {
+    font-size: 0.9rem;
+  }
+
+  h1 {
+    font-size: 2rem;
+  }
+
+  h3 {
+    font-size: 1rem;
+  }
+
+  .card p {
+    font-size: 0.85rem;
+  }
+}
