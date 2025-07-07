@@ -11,7 +11,7 @@ const inter = Inter({
 });
 
 export const metadata: Metadata = {
-  title: "Hack Club CDN",
+  title: "Bitstream | CDN",
   description:
     "Upload any file URL to get a permanent link that will last for thousands of years.",
 };
