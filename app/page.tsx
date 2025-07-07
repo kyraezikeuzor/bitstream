@@ -45,12 +45,13 @@ export default function Home() {
   return (
     <div className="max-w-[680px] mx-auto my-auto min-h-screen px-6 py-[16vh]">
       <h1 className="text-4xl lg:text-5xl font-semibold text-left mb-4">
-        Bitstream🧶
+        Bitstream
       </h1>
       <p className="text-xl text-muted-foreground text-left mb-6">
         Bitstream uses <a href="https://hackclub.com/cdn">Hack Club</a>
         &apos;s CDN or Content Delivery Network to store your files on the cloud
-        forever, for free.
+        forever, for free. Upload any temporary file URL (image, video, etc) to
+        receive a permanent URL.
       </p>
 
       <div className="space-y-6 mt-10">
